@@ -4,7 +4,7 @@ This project is a browser-based Flappy Bird style game developed using the Phase
 The game demonstrates core game development concepts including physics, sprite animation, collision detection, input handling, and scene restarting.
 
 ## **Gameplay Overview**
-
+---
 Player controls a bird sprite
 
 Gravity constantly pulls the bird downward
@@ -20,10 +20,10 @@ Ground collision
 Reach the right edge of the screen to win
 
 Game auto-restarts after a crash
+
+
+## **Technologies Used**
 ---
-
-### **Technologies Used**
-
 Phaser 3 Framework
 
 JavaScript
@@ -31,10 +31,10 @@ JavaScript
 HTML5
 
 Arcade Physics Engine (Phaser built-in)
+
+
+##**Core Concepts Implemented**
 ---
-
-**Core Concepts Implemented**
-
 Phaser Scene lifecycle (preload, create, update)
 
 Sprite sheets and animations
@@ -56,8 +56,8 @@ Restart scheduling
 Timed scene restart using delayedCall
 
 
-**Game Controls**
-
+## **Game Controls**
+---
 Key	Action
 Spacebar	Start game
 Spacebar	Flap / Move upward
@@ -72,8 +72,8 @@ project-folder/
     ├── column.png
     └── bird.png
 
-Features
-
+## Features
+---
 ✅ Gravity-based physics
 
 ✅ Obstacle collision detection
@@ -90,8 +90,8 @@ Features
 
 ✅ Text-based player feedback
 
-**Game Flow**
-
+## **Game Flow**
+---
 Load Assets
    ↓
 Create Scene
@@ -109,8 +109,8 @@ Win or Crash
 Auto Restart
 
 
-**Learning Outcomes**
-
+## **Learning Outcomes**
+---
 This project helps understand:
 
 Phaser game architecture
@@ -126,9 +126,9 @@ Collision mechanics
 Scene lifecycle control
 
 
-**Possible Future Improvements**
-
-Add scoring system
+## **Possible Future Improvements**
+---
+Add a scoring system
 
 Add sound effects
 
