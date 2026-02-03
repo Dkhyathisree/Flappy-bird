@@ -33,7 +33,7 @@ HTML5
 Arcade Physics Engine (Phaser built-in)
 
 
-##**Core Concepts Implemented**
+## **Core Concepts Implemented**
 ---
 Phaser Scene lifecycle (preload, create, update)
 
@@ -72,7 +72,7 @@ project-folder/
     ├── column.png
     └── bird.png
 
-## Features
+## **Features**
 ---
 ✅ Gravity-based physics
 
