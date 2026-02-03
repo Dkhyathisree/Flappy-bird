@@ -58,14 +58,23 @@ Timed scene restart using delayedCall
 
 ## **Game Controls**
 ---
-Key	Action
-Spacebar	Start game
-Spacebar	Flap / Move upward
-🗂️ Project Structure
+### Key	Action
+
+Spacebar-	Start game
+
+Spacebar-	Flap / Move upward
+
+
+### Project Structure
+
 project-folder/
+
 │
+
 ├── index.html        → Main HTML loader file
+
 ├── app.js            → Game logic and Phaser scene
+
 └── assets/
     ├── background.png
     ├── road.png
@@ -74,38 +83,52 @@ project-folder/
 
 ## **Features**
 ---
-✅ Gravity-based physics
+Gravity-based physics
 
-✅ Obstacle collision detection
+Obstacle collision detection
 
-✅ Start instruction system
+Start instruction system
 
-✅ Crash detection & auto restart
+Crash detection & auto restart
 
-✅ Win condition logic
+Win condition logic
 
-✅ Sprite scaling
+Sprite scaling
 
-✅ Static obstacle groups
+Static obstacle groups
 
-✅ Text-based player feedback
+Text-based player feedback
 
 ## **Game Flow**
 ---
 Load Assets
+
    ↓
+   
 Create Scene
+
    ↓
+   
 Show Instructions
+
    ↓
+   
 Player Presses Space
+
    ↓
+   
 Bird Moves Forward
+
    ↓
+   
 Avoid Obstacles
+
    ↓
+   
 Win or Crash
+
    ↓
+   
 Auto Restart
 
 
